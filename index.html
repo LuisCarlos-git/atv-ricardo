@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Atv Ricardo</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function validaCampo() {
+            var focaEmail = document.getElementById('email');
+            var focaSenha = document.getElementById('password');
+
+            if (focaEmail.value == ''){
+                focaEmail.focus();
+            }
+            if (focaSenha.value == ''){
+                focaSenha.focus();
+            }
+            if (focaEmail.value == '' && focaSenha.value == ''){
+                alert('Anbos os campos estão vazios, preencha corretamente')
+            }
+        }
+    
+    
+    </script>
+</head>
+<body>
+    
+    <div id="principal">
+        <div id="baner">
+            <h1>Atv Professor Ricardo</h1>
+        </div>
+        <div id="nav-bar">
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Aulas</a></li>
+                  <li><a href="#">links exsternos</a></li>
+                  <li><a href="#">Colaboradores</a></li>
+                  <li><a href="#">Alunos Participantes</a></li>
+              </ul>
+        </div>
+    </div>
+
+
+
+    <div id="form">
+        <form>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="exemple@exemple.com">
+
+            <br>
+            <br>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" placeholder="digite sua senha....">
+
+            <br>
+            <br>
+
+            <button class="button" onclick="validaCampo()">Enviar</button>
+        </form>
+
+    </div>
+
+
+</body>
+</html>

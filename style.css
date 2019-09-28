@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
+
+
+#principal {
+    background: url(imagens/banner-1.jpg);
+    width: 100%;
+    height: 200px;
+}
+ul {
+    list-style: none;
+}
+
+
+#baner {
+    display: flex;
+    justify-content: center;
+    font-family: 'Mansalva', cursive;
+    color: #fff;
+
+}
+
+#baner h1 {
+ margin-top: 70px;
+}
+#nav-bar ul {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#nav-bar ul li a{
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Mansalva', cursive;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+
+}
+#nav-bar ul li a:hover {
+    transition-duration: 1s; 
+    background: #0C04FA;
+}
+/*formulario*/
+#form {
+    font-family: 'Mansalva', cursive;
+    height: 150px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+form{
+    padding: 20px;
+    box-shadow: 0 0 5px black;
+    border-radius: 5px;
+}
+.button {
+    font-family: 'Mansalva', cursive;
+    background: #0C04FA;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100px;
+}
